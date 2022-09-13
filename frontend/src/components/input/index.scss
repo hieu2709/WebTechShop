@@ -1,0 +1,13 @@
+.m-input {
+}
+
+.m-input-search {
+    .ant-input-group-addon {
+        display: none;
+    }
+
+    .ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}

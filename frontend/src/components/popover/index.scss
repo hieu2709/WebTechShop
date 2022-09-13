@@ -1,0 +1,7 @@
+.m-popover-overlay {
+    &.no-arrow {
+        .ant-popover-arrow {
+            display: none;
+        }
+    }
+}

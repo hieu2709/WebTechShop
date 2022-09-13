@@ -1,0 +1,23 @@
+@import "../abstracts/vairable";
+
+.m-notification-simple.ant-notification-notice {
+    width: max-content;
+    background: rgba(0, 0, 0, 0.8);
+    color: map-get($colors, white);
+    border-radius: 4px;
+    padding: 12px 40px 12px 12px;
+
+    .ant-notification-notice-icon,
+    .ant-notification-notice-message {
+        display: none;
+    }
+    .ant-notification-notice-description {
+        margin-left: 0;
+    }
+
+    .ant-notification-notice-close {
+        color: map-get($colors, white);
+        top: 12px;
+        right: 12px;
+    }
+}

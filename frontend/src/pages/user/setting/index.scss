@@ -1,0 +1,22 @@
+.current-password {
+    .ant-form-item-explain-error {
+        margin-bottom: 8px;
+    }
+}
+
+.avatar-container {
+    border-radius: 100%;
+    .avatar-overlay {
+        border-radius: 100%;
+        top: 0;
+    }
+    &:hover {
+        .avatar-overlay {
+            display: flex !important;
+        }
+    }
+}
+
+.ant-modal-title {
+    padding-left: 16px !important;
+}

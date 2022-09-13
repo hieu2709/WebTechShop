@@ -1,0 +1,7 @@
+@import "../abstracts/vairable";
+
+.ant-checkbox {
+    .ant-checkbox-inner {
+        border-color: map-get($colors, gray-80);
+    }
+}
